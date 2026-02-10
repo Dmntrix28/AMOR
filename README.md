@@ -20,3 +20,9 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+## Si ves la pantalla en blanco
+
+- Verifica que estés ejecutando con Vite (`npm run dev`) y no abriendo `index.html` directamente.
+- Revisa la consola del navegador para detectar errores de JavaScript.
+- El fondo se configuró en negro para maximizar el contraste de las partículas.

@@ -38,7 +38,7 @@ function createTextTargets(text, width, height, particleCount) {
   offscreen.height = height;
   const ctx = offscreen.getContext('2d');
 
-  if (!ctx) {
+  if (!ctx) { 
     return createNestedHeartTargets(width, height, particleCount);
   }
 
